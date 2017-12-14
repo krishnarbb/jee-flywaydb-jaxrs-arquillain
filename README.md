@@ -18,8 +18,9 @@ The above command will build the war file , create and populate the Database (H2
 
 To deploy the WAR file to a Jboss instance running in Docker
 ------------------------------------------------------------
-docker run -it -p 8080:8080 jee-flywaydb
 docker build --no-cache --rm -t jee-flywaydb .
+
+docker run -it -p 8080:8080 jee-flywaydb
 
 
 In the browser :
