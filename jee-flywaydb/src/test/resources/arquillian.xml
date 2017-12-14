@@ -8,7 +8,7 @@
         <configuration>
             <property name="jbossHome">${serverRoot:target/wildfly-8.0.0.Final}</property>
             <property name="serverConfig">${serverProfile:standalone-full.xml}</property>
-            <property name="javaHome">/home/ebujkri/Tools/jdk/jdk8/jdk1.8.0_111</property>
+            <property name="javaHome">${java.home}</property>
         </configuration>
     </container>
 
