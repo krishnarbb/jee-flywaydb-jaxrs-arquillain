@@ -31,9 +31,6 @@ import com.db.rest.EntityManagerProducer;
 import com.db.rest.JAXRSConfiguration;
 import com.db.rest.TestServlet;
 
-/**
- * @author Alexis Hassler
- */
 @RunWith(Arquillian.class)
 public class DataSourceDefinitionTest {
     @Deployment
